@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # number2
 
 > number2
@@ -20,3 +21,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+=======
+# vue-dashboard
+Vue (Nuxt) , Climate Data Api
+>>>>>>> c87651a8096b2d20932b75d8ecc24633042fd295
