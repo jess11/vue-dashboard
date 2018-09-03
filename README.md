@@ -1,11 +1,12 @@
-<<<<<<< HEAD
-# number2
 
-> number2
+# Dashboard - Climate Data
+
+# Vue / Nuxt / CSS / JS / HTML
+# Climate Data API - [https://datahelpdesk.worldbank.org/knowledgebase/articles/902061-climate-data-api]
+
 
 ## Build Setup
 
-``` bash
 # install dependencies
 $ npm install # Or yarn install
 
@@ -18,10 +19,10 @@ $ npm start
 
 # generate static project
 $ npm run generate
-```
+
+# View page : 
+localhost:3333/home
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-=======
-# vue-dashboard
-Vue (Nuxt) , Climate Data Api
->>>>>>> c87651a8096b2d20932b75d8ecc24633042fd295
+
+
