@@ -1,26 +1,27 @@
 
 # Dashboard - Climate Data
 
-# Vue / Nuxt / CSS / JS / HTML
-# Climate Data API - [https://datahelpdesk.worldbank.org/knowledgebase/articles/902061-climate-data-api]
+### Vue / Nuxt / CSS / JS / HTML
+### Climate Data API - [https://datahelpdesk.worldbank.org/knowledgebase/articles/902061-climate-data-api]
+
 
 
 ## Build Setup
 
-# install dependencies
+### install dependencies
 $ npm install # Or yarn install
 
-# serve with hot reload at localhost:3000
+### serve with hot reload at localhost:3000
 $ npm run dev
 
-# build for production and launch server
+### build for production and launch server
 $ npm run build
 $ npm start
 
-# generate static project
+### generate static project
 $ npm run generate
 
-# View page : 
+### View page : 
 localhost:3333/home
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
