@@ -20,6 +20,33 @@ background: -moz-linear-gradient(-45deg, #70688a 0%, #70688a 1%, #3b3e4d 100%); 
 background: -webkit-linear-gradient(-45deg, #70688a 0%,#70688a 1%,#3b3e4d 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(135deg, #70688a 0%,#70688a 1%,#3b3e4d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70688a', endColorstr='#3b3e4d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
+
+label{
+  display:block;
+}
+
+.title {
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #35495e;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.links {
+  padding-top: 15px;
+}
+
+
 .title{
   color: $white !important;
 }
@@ -119,7 +146,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70688a', end
   font-size: 0.8rem;
   letter-spacing: 0.5px;
   font-weight: 800;
-  font-family: 'Roboto', sans-serif;
+  font-family: "helvetica neue", helvetica;
   text-align: left;
   margin-top: 10px;
   opacity:0;
@@ -200,6 +227,48 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70688a', end
     padding: 20px;
   }
   .panel{
-    width: auto;
+    position: static;
+    width: 100%;
+  }
+}
+
+.select-wrapper {
+  position: relative;
+  background-color: #e6e6e6;
+  width: auto;
+  float: left;
+  max-width: 100%;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+
+  select {
+    font-family: "helvetica neue", helvetica;
+    font-size: 1rem;
+    font-weight: 200;
+    max-width: 100%;
+    padding: 8px 24px 8px 10px;
+    border: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    &:active,
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  &:after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    right: 8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #aaa;
   }
 }
