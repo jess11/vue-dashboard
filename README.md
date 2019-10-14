@@ -2,8 +2,8 @@
 # Dashboard - Climate Data
 
 ### Vue / Nuxt / CSS / JS / HTML
-### Climate Data API - [https://datahelpdesk.worldbank.org/knowledgebase/articles/902061-climate-data-api]
-
+Climate Data API - [https://datahelpdesk.worldbank.org/knowledgebase/articles/902061-climate-data-api]
+Demo: - [http://jess11.epizy.com/]
 
 
 ## Build Setup
@@ -21,9 +21,7 @@ $ npm start
 ### generate static project
 $ npm run generate
 
-### View page : 
+### View page :
 localhost:3333/home
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
-
