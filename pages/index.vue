@@ -46,13 +46,13 @@
 
           <div class="panel"  style="position: relative; ">
               <p class="panel-title">
-                Precipitation (mm)
+                Precipitation <span class="measurement">(mm)</span>
               </p>
               <LineChart dataType="pr" ref="chart"></LineChart>
           </div>
           <div class="panel" style="position: relative;">
               <p class="panel-title">
-                Temperature (°C)
+                Temperature <span class="measurement">(°C)</span>
               </p>
               <!-- <BarChart dataType="tas"  ref="chart"></BarChart> -->
               <LineChart dataType="tas"  ref="chart"></LineChart>
