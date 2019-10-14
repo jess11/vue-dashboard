@@ -11,8 +11,6 @@
         </p>
         <div class="nav" id="nav">
 
-
-
           <div class="input-field col s12 m6">
 
             <label for="country">Country</label>
@@ -24,51 +22,37 @@
                 </option>
               </select>
             </div>
-
-
-            <!-- <label for="timespan">Years</label>
-            <select id="timespan" v-model="timespan">
-              <option v-for="year in years" v-bind:key="year.value" v-bind:value="year.value">
-                {{ year.text }}
-              </option>
-            </select> -->
-
-
-
           </div>
-
-
 
           <div class="nav-item">
-
           </div>
 
-<button v-on:click="createGraph(country)" type="button" class="btn waves-effect waves-light" name="button"> OK </button>
+          <button v-on:click="createGraph(country)" type="button" class="btn waves-effect waves-light" name="button"> OK </button>
 
-<div v-if="loading" class="loader-wrapper">
-  <div class="loader">
+          <div v-if="loading" class="loader-wrapper">
+            <div class="loader">
+            </div>
+          </div>
 
-  </div>
-</div>
+          <div class="small">
+            <p>Select a country to view the effects of climate change over the years.</p>
+          </div>
 
-
-          <!-- <button v-on:click="showData(country,timespan,variable)" type="button" class="btn waves-effect waves-light" name="button"> Show me the money </button> -->
         </div>
       </div>
 
 
-
-
       <div class="main">
+
           <div class="panel"  style="position: relative; ">
               <p class="panel-title">
-                Precipitation
+                Precipitation (mm)
               </p>
               <LineChart dataType="pr" ref="chart"></LineChart>
           </div>
           <div class="panel" style="position: relative;">
               <p class="panel-title">
-                Temperature
+                Temperature (°C)
               </p>
               <!-- <BarChart dataType="tas"  ref="chart"></BarChart> -->
               <LineChart dataType="tas"  ref="chart"></LineChart>
