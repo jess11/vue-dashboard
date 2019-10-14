@@ -45,6 +45,13 @@
 
 <button v-on:click="createGraph(country)" type="button" class="btn waves-effect waves-light" name="button"> OK </button>
 
+<div v-if="loading" class="loader-wrapper">
+  <div class="loader">
+
+  </div>
+</div>
+
+
           <!-- <button v-on:click="showData(country,timespan,variable)" type="button" class="btn waves-effect waves-light" name="button"> Show me the money </button> -->
         </div>
       </div>
@@ -95,6 +102,7 @@ export default {
   },
     data: function() {
       return {
+        loading: false,
         country: '',
         info: [],
         options: [
@@ -121,8 +129,11 @@ export default {
       }
     },
     methods: {
-
       createGraph: function (country) {
+
+        this.loading = true;
+
+
 
         let ajaxUrlTas19201939  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/1920/1939/${country}`,
             ajaxUrlTas19401959  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/1940/1959/${country}`,
@@ -186,6 +197,9 @@ export default {
           "temperature": [],
           "precipitation": []
         };
+
+        this.loading = false;
+
 
         Vue.set(this.info.temperature, '1920-1939', response19201939.data[0]);
         Vue.set(this.info.temperature, '1940-1959', response19401959.data[0]);
