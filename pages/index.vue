@@ -123,23 +123,22 @@ export default {
     methods: {
 
       createGraph: function (country) {
-
-        let ajaxUrlTas19201939  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/1920/1939/${country}`,
-            ajaxUrlTas19401959  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/1940/1959/${country}`,
-            ajaxUrlTas19601979  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/1960/1979/${country}`,
-            ajaxUrlTas19801999  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/1980/1999/${country}`,
-            ajaxUrlTas20202039  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/2020/2039/${country}`,
-            ajaxUrlTas20402059  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/2040/2059/${country}`,
-            ajaxUrlTas20602079  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/2060/2079/${country}`,
-            ajaxUrlTas20802099  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/2080/2099/${country}`,
-            ajaxUrlPr19201939  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/1920/1939/${country}`,
-            ajaxUrlPr19401959  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/1940/1959/${country}`,
-            ajaxUrlPr19601979  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/1960/1979/${country}`,
-            ajaxUrlPr19801999  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/1980/1999/${country}`,
-            ajaxUrlPr20202039  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/2020/2039/${country}`,
-            ajaxUrlPr20402059  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/2040/2059/${country}`,
-            ajaxUrlPr20602079  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/2060/2079/${country}`,
-            ajaxUrlPr20802099  = `http://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/2080/2099/${country}`;
+        let ajaxUrlTas19201939  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/1920/1939/${country}`,
+            ajaxUrlTas19401959  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/1940/1959/${country}`,
+            ajaxUrlTas19601979  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/1960/1979/${country}`,
+            ajaxUrlTas19801999  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/1980/1999/${country}`,
+            ajaxUrlTas20202039  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/2020/2039/${country}`,
+            ajaxUrlTas20402059  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/2040/2059/${country}`,
+            ajaxUrlTas20602079  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/2060/2079/${country}`,
+            ajaxUrlTas20802099  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/tas/2080/2099/${country}`,
+            ajaxUrlPr19201939  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/1920/1939/${country}`,
+            ajaxUrlPr19401959  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/1940/1959/${country}`,
+            ajaxUrlPr19601979  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/1960/1979/${country}`,
+            ajaxUrlPr19801999  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/1980/1999/${country}`,
+            ajaxUrlPr20202039  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/2020/2039/${country}`,
+            ajaxUrlPr20402059  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/2040/2059/${country}`,
+            ajaxUrlPr20602079  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/2060/2079/${country}`,
+            ajaxUrlPr20802099  = `https://climatedataapi.worldbank.org/climateweb/rest/v1/country/mavg/csiro_mk3_5/pr/2080/2099/${country}`;
 
 
 
